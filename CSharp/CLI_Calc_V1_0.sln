@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI_Calc_V1_0", "CLI_Calc_V1_0\CLI_Calc_V1_0.csproj", "{CAA326ED-59DE-47D8-8000-D60F2A30534D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAA326ED-59DE-47D8-8000-D60F2A30534D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA326ED-59DE-47D8-8000-D60F2A30534D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA326ED-59DE-47D8-8000-D60F2A30534D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA326ED-59DE-47D8-8000-D60F2A30534D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6099C6DC-B90D-4646-8A21-D1A928906762}
+	EndGlobalSection
+EndGlobal
