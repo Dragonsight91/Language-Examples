@@ -29,10 +29,14 @@ function Calculate-Exponent {
         $Exp
     )
 
-    $res = $base
+    if ($exp -eq 0) {
+        return 1
+    }
 
-    for ($i = 1; $i -lt $exp; $i++) {
-        $res *= $exp
+    $res = $Base
+
+    for ($i = $Exp; $i -gt 1; $i--) {
+        $res *= $Base
     }
 
     return $res
